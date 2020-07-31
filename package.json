@@ -1,0 +1,27 @@
+{
+  "name": "task-js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode=development",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.5.0",
+    "eslint-loader": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "eslint-config-standard": "^14.1.1"
+  }
+}
