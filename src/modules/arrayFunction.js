@@ -1,7 +1,7 @@
 /* eslint-disable no-debugger */
-console.log('Array functions\n\n')
 
 const arrayFunction = () => {
+  console.log('Array functions\n\n')
   console.log('1.1. Усредненная сумма массивов [очень просто]')
   const sumAverage = arr => {
     return Math.floor(arr.reduce((accum, item) => {
