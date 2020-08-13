@@ -103,7 +103,7 @@ const stringFunction = () => {
       }, [])
       .join(' ')
   }
-  console.log('replaceWithAlphPositions: ', replaceWithAlphPositions('AAbbCc12Dg'))
+  console.log('replaceWithAlphPositions: ', replaceWithAlphPositions('AAbbCc12DgZz'))
   console.log('END 2.6\n\n')
 }
 
