@@ -8,9 +8,10 @@
         "standard"
     ],
     "parserOptions": {
-        "ecmaVersion": 11,
+        "ecmaVersion": 8,
         "sourceType": "module"
     },
     "rules": {
+        "indent": ["error", 4]
     }
 }

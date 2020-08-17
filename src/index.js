@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import '@babel/polyfill'
 
 import arrayFunction from './modules/arrayFunction'
@@ -10,16 +8,16 @@ import recreation from './modules/recreation'
 import classes from './modules/classes'
 import sort from './modules/sort'
 
-// arrayFunction()
+arrayFunction()
 
-// stringFunction()
+stringFunction()
 
-// algorithms()
+algorithms()
 
-// hightFunct()
+hightFunct()
 
-// recreation()
+recreation()
 
-// classes()
+classes()
 
 sort()

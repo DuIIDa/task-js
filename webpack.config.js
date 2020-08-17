@@ -1,5 +1,4 @@
 const path = require('path');
-/* eslint-disable */
 module.exports = {
     entry: {
         main: './src/index.js',
